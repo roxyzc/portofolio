@@ -1,0 +1,10 @@
+/* Styles for the modal */
+#imageModal {
+  z-index: 1000;
+}
+
+#modalImage {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}

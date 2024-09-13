@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <section
+      class="bg-blue-500 text-white p-8 md:p-20 flex items-center justify-center"
+    >
+      <div class="flex flex-col md:flex-row items-center max-w-4xl mx-auto">
+        <!-- Image Section -->
+        <div
+          class="flex-shrink-0 relative w-48 h-48 md:w-64 md:h-64 mb-8 md:mb-0 md:mr-12"
+        >
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-blue-700 via-blue-500 to-blue-300 rounded-full"
+          ></div>
+          <img
+            src="img/foto-1.png"
+            alt="Ridho Pikriyansyah"
+            class="relative w-full h-full object-cover rounded-full border-4 border-white shadow-xl transform hover:scale-105 transition-transform"
+          />
+        </div>
+        <!-- Text Section -->
+        <div class="flex-1 text-center md:text-left">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Hi, I'm Ridho Pikriyansyah
+          </h2>
+          <p class="text-lg md:text-xl mb-4">
+            A passionate backend developer who loves to build robust server-side
+            solutions.
+          </p>
+          <p class="text-lg md:text-xl mb-4">Based in Jakarta, Indonesia</p>
+          <div class="flex justify-center md:justify-start space-x-4 py-2">
+            <a
+              href="mailto:roxyzc12@gmail.com"
+              class="text-white hover:text-gray-200 transition-colors"
+            >
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+            <a
+              href="https://instagram.com/ridh15_"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a
+              href="https://wa.me/+6282297634460"
+              target="_blank"
+              class="text-green-400 hover:text-green-300 transition-colors"
+            >
+              <i class="fab fa-whatsapp fa-2x"></i>
+            </a>
+            <a
+              href="https://github.com/roxyzc"
+              target="_blank"
+              class="text-gray-400 hover:text-gray-300 transition-colors"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="bg-gray-100 py-16">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">Experience</h3>
+        <div class="grid grid-cols-1 gap-8">
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition-transform transform hover:scale-105"
+          >
+            <div class="mb-4">
+              <img
+                src="img/sekolah_tk.png"
+                alt="PPDB Siswa"
+                class="w-full h-auto object-contain rounded-lg"
+              />
+            </div>
+            <h4 class="text-xl font-semibold mb-2">PPDB Siswa</h4>
+            <p class="text-gray-600 mb-2">TK ISLAM Pelita Insan</p>
+            <p class="text-gray-500 mb-4">Jan 2024 - Jun 2024</p>
+            <!-- Waktu Penambahan -->
+            <ul class="text-gray-700 list-disc list-inside space-y-2">
+              <li>
+                Developed backend solutions for a web application, including API
+                design and database management.
+              </li>
+              <li>
+                Implemented server-side logic and integrated with frontend
+                components.
+              </li>
+              <li>Technologies used: Node.js, NestJS, MySQL, RESTful APIs</li>
+            </ul>
+            <div class="mt-4 flex justify-center space-x-6">
+              <a
+                href="https://sekolah-tk.vercel.app"
+                class="border border-gray-300 flex items-center space-x-2 p-2 rounded-lg text-blue-500 hover:underline"
+              >
+                <div class="p-1">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/000000/link.png"
+                    alt="Link Logo"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <span>Visit Application</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="bg-white py-16">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">Education</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition-transform transform hover:scale-105 mx-4"
+          >
+            <div class="flex justify-center mb-4">
+              <img src="img/UPB.png" alt="University Logo" class="w-24 h-24" />
+            </div>
+            <h4 class="text-xl font-semibold text-center mb-2">
+              Informatics Engineering
+            </h4>
+            <p class="text-gray-600 text-center mb-4">
+              Pelita Bangsa University, 2021 - Present
+            </p>
+            <ul class="text-gray-700 list-disc list-inside space-y-2">
+              <li>
+                Participated in two distinct research projects, each supervised
+                by a different faculty member.
+              </li>
+              <li>
+                Published a research paper on data mining in the campus journal,
+                contributing valuable insights to the field of data analysis.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition-transform transform hover:scale-105 mx-4"
+          >
+            <div class="flex justify-center mb-4">
+              <img
+                src="img/SMK_Negeri_1_Cikarang_Barat.jpg"
+                alt="School Logo"
+                class="w-24 h-24"
+              />
+            </div>
+            <h4 class="text-xl font-semibold text-center mb-2">
+              Computer and Network Engineering
+            </h4>
+            <p class="text-gray-600 text-center mb-4">
+              SMKN West Cikarang, 2018 - 2021
+            </p>
+            <ul class="text-gray-700 list-disc list-inside space-y-2">
+              <li>
+                Served as MC for an event welcoming Japanese guests, enhancing
+                cross-cultural communication and engagement.
+              </li>
+              <li>Participated in organizing a Japanese cultural festival.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-100 py-16">
+      <div class="container mx-auto">
+        <h3 class="text-3xl font-bold text-center mb-8">Skills</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">Java</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">JavaScript</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              alt="TypeScript"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">TypeScript</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">HTML5</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">CSS3</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="Node.js"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">Node.js</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+              alt="PHP"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">PHP</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              alt="Express"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">Express</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg"
+              alt="NestJS"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">NestJS</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="MySQL"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">MySQL</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              alt="PostgreSQL"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">PostgreSQL</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              alt="MongoDB"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">MongoDB</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">Git</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+              alt="Postman"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">Postman</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/codeigniter.svg"
+              alt="CodeIgniter"
+              class="w-12 h-12 mx-auto mb-2"
+            />
+            <p class="text-lg font-bold">CodeIgniter</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-16 px-4">
+      <h3 class="text-3xl font-bold text-center mb-8">My Projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div
+          class="bg-white shadow-lg rounded-lg p-6 flex flex-col transition-transform transform hover:scale-105"
+        >
+          <img
+            src="img/projek-1.png"
+            alt="Bus Ticket System"
+            class="w-full h-48 object-cover rounded-lg mb-4 cursor-pointer"
+            onclick="openModal('img/projek-1.png')"
+          />
+          <h4 class="text-2xl font-bold mb-2">Bus Ticket System</h4>
+          <p class="mb-4">
+            The Bus Ticket System is a web application that facilitates users to
+            book bus tickets for their journeys conveniently and efficiently.
+            The platform offers features such as ticket booking, seat selection,
+            and management of transportation business aspects.
+          </p>
+          <div class="flex flex-col space-y-4 items-center mt-4">
+            <a
+              href="https://github.com/your-username/project1"
+              class="border border-gray-300 flex items-center space-x-2 p-2 rounded-lg text-blue-500 hover:bg-gray-100"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/github.png"
+                alt="GitHub Logo"
+                class="w-6 h-6"
+              />
+              <span>GitHub Repository</span>
+            </a>
+            <a
+              href="https://tiket-id.vercel.app"
+              class="border border-gray-300 flex items-center space-x-2 p-2 rounded-lg text-green-500 hover:bg-gray-100"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/link.png"
+                alt="Link Logo"
+                class="w-6 h-6"
+              />
+              <span>Visit Application</span>
+            </a>
+            <a
+              href="https://documenter.getpostman.com/view/19500855/2s93sdaCVn"
+              class="border border-gray-300 flex items-center space-x-2 p-2 rounded-lg text-purple-500 hover:bg-gray-100"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/document.png"
+                alt="Postman"
+                class="w-6 h-6"
+              />
+              <span>Postman Documentation</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div
+          class="bg-white shadow-lg rounded-lg p-6 flex flex-col transition-transform transform hover:scale-105"
+        >
+          <img
+            src="img/projek-2.png"
+            alt="Bus Ticket System"
+            class="w-full h-48 object-cover rounded-lg mb-4 cursor-pointer"
+            onclick="openModal('img/projek-2.png')"
+          />
+          <h4 class="text-2xl font-bold mb-2">Clone Threads</h4>
+          <p class="mb-4">
+            Clone Threads is a social application that mimics the features of
+            Threads, allowing users to interact and share content easily. The
+            app provides key features such as commenting, content uploading,
+            replying to comments, liking content, and liking comments.
+          </p>
+          <div class="flex flex-col space-y-4 items-center mt-4">
+            <a
+              href="https://github.com/roxyzc/threads.git"
+              class="border border-gray-300 flex items-center space-x-2 p-2 rounded-lg text-blue-500 hover:bg-gray-100"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/github.png"
+                alt="GitHub Logo"
+                class="w-6 h-6"
+              />
+              <span>GitHub Repository</span>
+            </a>
+            <a
+              href="https://documenter.getpostman.com/view/19500855/2s9YJc2P7A"
+              class="border border-gray-300 flex items-center space-x-2 p-2 rounded-lg text-purple-500 hover:bg-gray-100"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/document.png"
+                alt="Postman"
+                class="w-6 h-6"
+              />
+              <span>Postman Documentation</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        id="imageModal"
+        class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center hidden"
+      >
+        <span
+          class="absolute top-4 right-4 text-white text-3xl cursor-pointer"
+          onclick="closeModal()"
+          >&times;</span
+        >
+        <img
+          id="modalImage"
+          src=""
+          alt="Enlarged Image"
+          class="max-w-full max-h-full"
+        />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-200 py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-2xl mx-auto">
+          <h3 class="text-2xl sm:text-3xl font-bold text-center mb-8">
+            About Me
+          </h3>
+          <p
+            class="text-center text-sm sm:text-base md:text-lg leading-relaxed"
+          >
+            I am a computer science student with a strong passion for software
+            engineering, focusing particularly on backend development. I am
+            proficient in programming languages such as JavaScript, TypeScript,
+            and PHP, and I enjoy building efficient and scalable systems. My
+            interest in backend development drives me to continuously learn and
+            apply best practices in coding and system design. I am eager to
+            contribute to innovative projects and collaborate with others to
+            create impactful software solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="bg-blue-500 py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-2xl mx-auto">
+          <h3
+            class="text-2xl sm:text-3xl text-white font-bold text-center mb-8"
+          >
+            My Goals
+          </h3>
+          <p
+            class="text-center text-sm sm:text-base md:text-lg text-white leading-relaxed"
+          >
+            My goal is to contribute to innovative projects that push the
+            boundaries of technology and solve real-world problems. I am eager
+            to collaborate with teams to create impactful software solutions,
+            and I aspire to advance my skills in emerging technologies while
+            making a positive impact in the tech industry.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <p>&copy; 2024 Ridho Pikriyansyah.</p>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
